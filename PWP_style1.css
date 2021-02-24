@@ -1,40 +1,62 @@
 body {
 	background-color: #1f1c1a;
 	margin: auto;
+	font-family:  'Akaya Telivigala', cursive;
 	}
 * {
 		box-sizing: border-box;
 	}
 .start {
-	font-size: 30px;
+	font-size: 35px;
+	color:#e8e117;
+	text-decoration: none;
+	border: 3px solid #e8e117;
+    background: transparent;
+    padding: 2px;
+    cursor: pointer;
+}
+.wiki {
+	color:#e8e117;
+	text-decoration: none;
+	font-size: 16px;
+	
 }
 .shining {
 	margin: auto;
 	padding: auto;
+	font-size: 17px;
+	
 }
 .halloween {
 	margin: auto;
 	padding: auto;
+	font-size: 17px;
 }
 .lighthouse {
 	margin: auto;
 	padding: auto;
+	font-size: 17px;
 }
 .swiss-army-man {
 	margin: auto;
 	padding: auto;
+	font-size: 17px;
 }
 .first {
 	margin: auto;
+	font-size: 30px;
 }
 .second {
 	margin: auto;
+	font-size: 30px;
 }
 .third {
 	margin: auto;
+	font-size: 30px;
 }
 .fourth {
 	margin: auto;
+	font-size: 30px;
 }
 
 .a { 
@@ -74,11 +96,13 @@ header {
 .all-links {
     display: grid;
 	grid-template-columns: 30% 30% 30% 10%;
+	list-style: none;
     }
 .home-link {
 	font-size: 25px;
-	color: #3548db;
-}
+	color: #e8e117;
+	text-decoration: none;
+	}
 
 #container{
 	background-size: 100%;
